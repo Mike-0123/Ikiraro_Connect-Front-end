@@ -12,19 +12,19 @@ const Header = () => {
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center space-x-6">
-          <a href="#" className="hover:text-blue-300">Home</a>
-          <a href="#" className="hover:text-blue-300">Properties</a>
-          <a href="#" className="hover:text-blue-300">Searching Map</a>
-          <a href="#" className="hover:text-blue-300">Contact Us</a>
-          <a href="#" className="hover:text-blue-300">About Us</a>
+          <a href="/home" className="hover:text-blue-300">Home</a>
+          <a href="/properties" className="hover:text-blue-300">Properties</a>
+          <a href="/searching" className="hover:text-blue-300">Searching Map</a>
+          <a href="/contact" className="hover:text-blue-300">Contact Us</a>
+          <a href="aboutus" className="hover:text-blue-300">About Us</a>
           <a
-            href="#"
+            href="/agent"
             className="text-white bg-blue-800 px-3 py-1 rounded hover:bg-blue-700 transition-colors"
           >
             Become an Agent
           </a>
           <a
-            href="#"
+            href="/login"
             className="text-white bg-black flex items-center gap-2 px-3 py-2 rounded hover:bg-gray-800 hover:text-blue-300 transition-colors"
           >
             <svg
@@ -65,19 +65,19 @@ const Header = () => {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden px-4 pb-4 space-y-2">
-          <a href="#" className="block hover:text-blue-300">Home</a>
-          <a href="#" className="block hover:text-blue-300">Properties</a>
-          <a href="#" className="block hover:text-blue-300">Searching Map</a>
-          <a href="#" className="block hover:text-blue-300">Contact Us</a>
-          <a href="#" className="block hover:text-blue-300">About Us</a>
+          <a href="/home" className="block hover:text-blue-300">Home</a>
+          <a href="/properties" className="block hover:text-blue-300">Properties</a>
+          <a href="/seaerching" className="block hover:text-blue-300">Searching Map</a>
+          <a href="/contactus" className="block hover:text-blue-300">Contact Us</a>
+          <a href="/aboutus" className="block hover:text-blue-300">About Us</a>
           <a
-            href="#"
+            href="/agent"
             className="text-blue-900 block px-3 py-2 rounded bg-blue-800 hover:bg-blue-700 transition-colors"
           >
             Become an Agent
           </a>
           <a
-            href="#"
+            href="/login"
             className="text-white bg-black flex items-center gap-2 px-3 py-2 rounded hover:bg-gray-800 hover:text-blue-300 transition-colors"
           >
             <svg

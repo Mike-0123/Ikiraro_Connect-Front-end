@@ -28,9 +28,9 @@ export default function Footer() {
         {/* Helpful Links */}
         <div className="flex flex-col space-y-2 text-center md:text-left">
           <h3 className="font-semibold text-lg mb-2">Quick Links</h3>
-          <a href="#" className="hover:text-blue-400 transition">Privacy Policy</a>
-          <a href="#" className="hover:text-blue-400 transition">Terms of Service</a>
-          <a href="#" className="hover:text-blue-400 transition">Contact Us</a>
+          <a href="/privacy" className="hover:text-blue-400 transition">Privacy Policy</a>
+          <a href="/terms" className="hover:text-blue-400 transition">Terms of Service</a>
+          <a href="cotanct" className="hover:text-blue-400 transition">Contact Us</a>
         </div>
 
         {/* Need Help */}
